@@ -1,0 +1,21 @@
+1. First create server folder and install package.json file = npm init -y
+2. Install express = npm i express
+3. create roote file = server.js
+4. install nodemon - using it we should not run server repeatedaly = npm i nodemon
+5. create router
+6. create controllers
+7. install postman to run url
+8. when we send url in postmen and we always send json data so we need to write middleware in server.js file which is = app.use(express.json());
+9. install mongodb and signup "mongodb Atlas"
+10. install = npm i mongoose 
+11. create utils folder > db.js
+12. "C:\Program Files\mongosh\mongosh-2.5.5-win32-x64\bin" = This is the path to see "current mongosh log id"
+13. install = npm i dotenv
+14. create ".env" file and make a variable "MONGODB_URI" and store connection string in this variable
+15. create models - we have different models and in models we create schemas
+16. install bcrypt to secure the password - npm i bycryptjs 
+17. we used pre method to secure the password
+18. we used JWT(json web token) = it is used for authentication and autoraization in web application
+19. install JWT  = npm i jsonwebtoken
+20. create validators
+21. install zod = npm i zod
